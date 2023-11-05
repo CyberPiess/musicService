@@ -1,0 +1,14 @@
+D:\OOP_C#\MusicApp\MusicApp\obj\Debug\net6.0\MusicApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\OOP_C#\MusicApp\MusicApp\obj\Debug\net6.0\MusicApp.AssemblyInfoInputs.cache
+D:\OOP_C#\MusicApp\MusicApp\obj\Debug\net6.0\MusicApp.AssemblyInfo.cs
+D:\OOP_C#\MusicApp\MusicApp\obj\Debug\net6.0\MusicApp.csproj.CoreCompileInputs.cache
+D:\OOP_C#\MusicApp\MusicApp\bin\Debug\net6.0\MusicApp.exe
+D:\OOP_C#\MusicApp\MusicApp\bin\Debug\net6.0\MusicApp.deps.json
+D:\OOP_C#\MusicApp\MusicApp\bin\Debug\net6.0\MusicApp.runtimeconfig.json
+D:\OOP_C#\MusicApp\MusicApp\bin\Debug\net6.0\MusicApp.dll
+D:\OOP_C#\MusicApp\MusicApp\bin\Debug\net6.0\MusicApp.pdb
+D:\OOP_C#\MusicApp\MusicApp\obj\Debug\net6.0\MusicApp.dll
+D:\OOP_C#\MusicApp\MusicApp\obj\Debug\net6.0\refint\MusicApp.dll
+D:\OOP_C#\MusicApp\MusicApp\obj\Debug\net6.0\MusicApp.pdb
+D:\OOP_C#\MusicApp\MusicApp\obj\Debug\net6.0\MusicApp.genruntimeconfig.cache
+D:\OOP_C#\MusicApp\MusicApp\obj\Debug\net6.0\ref\MusicApp.dll
