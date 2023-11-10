@@ -19,6 +19,47 @@ menuCont += "Поиск коллекции \n";
 menuCont += "Выйти \n\n";
 menuCont += "Выберите пункт: ";
 
+
+string[] ArtistArr = { "Heldmachine", "Disturbed", "Ost+Front", "Eisbrecher" };
+string[] AlbumsArr = { "Himmelkorper", "Indestructable", "Propaganda", "Herz auf" };
+string[] SongsArr = { "R", "Prototyp",  "Open your eyes", "Tyrant", "Geld, Geld, Geld", "Kiene Liebe",  "Amok", "Fanatica" };
+int totalSong = 2;
+int item = 0;
+int count = 0;
+foreach (var art in ArtistArr)
+{
+    var nArtist = new Artist(art);
+    repository.Add(nArtist);
+    var alb = AlbumsArr[item];
+    var newAlbum = new Album(alb);
+    repository.Albums.Add(newAlbum);
+    var foundArtist = repository.SearchArtist(art);
+    newAlbum.Artist = art;
+    foundArtist.Albums.Add(newAlbum);
+    var nGenre = new Genre("Metal");
+    repository.Add(nGenre);
+    for (int i = 0; i < totalSong; i++)
+    {
+        var nSong = SongsArr[count];
+        var newSong = new Song(nSong);
+        repository.Songs.Add(newSong);
+        nGenre = repository.SearchGenre("Metal");
+        newSong.Artist = art;
+        newSong.Album = alb;
+        newSong.Genre = "Metal";
+        var foundAlbum = repository.SearchAlbum(art, alb);
+        foundAlbum.Songs.Add(newSong);
+        count++;
+    }
+
+}
+var baseCollection = new Collection("Энергичное");
+repository.Add(baseCollection);
+var fGenre = repository.SearchGenre("Metal");
+baseCollection.Genres.Add(fGenre);
+
+
+
 while (end == false)
 {
     Console.Write(menuCont);
